@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://bananthu.github.io/Design/styles/side-menu.css">
+    <link rel="stylesheet" href="https://bananthu.github.io/Design/styles/home.css">
+    <style>
+      body{
+        max-width: 414px;
+        box-shadow: 1px 1px 10px -3px rgb(158, 158, 158);
+      }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container outerbox">
+
+        <div class="menu" onmousedown="Open()">
+          <i class="fas fa-bars" style="font-size: 20px;color: #3F2F87;" ></i>
+        </div>
+        <div class="imgbox col">
+            <img src="https://bananthu.github.io/Design/image/logo.png" alt="" srcset="">
+        </div>
+        <div class="menu">
+          <!-- <i class="fas fa-bars" style="font-size: 20px;" ></i> -->
+        </div>
+    </div>
+    <div class="grid">
+        <div class="banner">
+          <img src="https://si.nccdn.net/page_images/Fotolia_62725968_X-960x640.jpg" alt="" srcset="">
+        </div>
+        
+        <div class="card">
+         
+          <div class="big-icon">
+            <a href="https://bananthu.github.io/Design/pages/new-insception.html"><i class="fas fa-bell  onging" style="font-size: 50px;color:#3F2F87 ;" ></i></a>
+          </div>
+          <div class="card-label">
+            <h4 style="padding-right: 40px;"> <a href="https://bananthu.github.io/Design/pages/new-insception.html" style="text-decoration: none; color: black;">NEW INSPECTIONS</a></h4>
+          </div>
+          <div class="show-item-count">
+            <div class="circle-bg">
+              <img src="https://bananthu.github.io/Design/image/notify.png" alt="" srcset="" width="35px">
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="big-icon">
+            <i class="fas fa-redo  onging" style="font-size: 50px;color:#3F2F87 ;" ></i>
+          </div>
+          <div class="card-label">
+            <h4 style="padding-right: 40px;color: black;"><a href="https://bananthu.github.io/Design/pages/ongoing.html" style="text-decoration: none; color: black;">ONGOING INSPECTIONS</a></h4>
+          </div>
+          <div class="show-item-count">
+            <div class="circle-bg">
+              <h4>1</h>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="big-icon">
+            <i class="fas fa-cloud-upload-alt  onging" style="font-size: 50px;color:#3F2F87 ;" ></i>
+          </div>
+          <div class="card-label">
+            <h4 style="padding-right: 40px;color: black;"><a href="https://bananthu.github.io/Design/pages/uploadinspection.html" style="text-decoration: none; color: black;">UPLOAD INSPECTIONS</a></h4>
+          </div>
+          <div class="show-item-count">
+            <div class="circle-bg" style="background-color: #c0ffa2;">
+              <h4>1</h>
+            </div>
+          </div>
+         
+        </div>
+        
+    </div>
+    <div style="height: 30px;"></div>
+    <div class="menu-container" id="menu-container">
+      <!-- <button type="button"  onclick="Hide()">ddd</button> -->
+      <div class="logo-menu" onmousedown="Hide()">
+          <img src="https://bananthu.github.io/Design/image/logo.png">
+          
+      
+      </div>
+      <div class="menu-body">
+          <div class="blank"></div>
+          <div class="red"  onmousedown="Hide()">
+              <div class="icon"><a href="https://bananthu.github.io/Design/pages/new-insception.html"><i class="fas fa-th-large" style="color: white; font-size: 25px;"></i></a></div>
+              <div class="label">Dashboard</div>
+          </div>
+          <div class="red">
+              <div class="icon"><a href="https://bananthu.github.io/Design/pages/new-insception.html"><i class="fas fa-bell" style="color: white; font-size: 25px;"></i></a></div>
+              <div class="label"><a href="https://bananthu.github.io/Design/pages/new-insception.html" style="text-decoration: none;">Inspections</a></div>
+          </div>
+          <!-- <div class="red" >
+              <div class="icon"><a href="https://bananthu.github.io/Design/pages/new-insception.html"><i class="fas fa-book" style="color: rgb(112, 112, 112); font-size: 25px;"></i></a></div>
+              <div class="label">Asset Register</div>
+          </div>
+          <div class="red">
+              <div class="icon"><a href="https://bananthu.github.io/Design/pages/new-insception.html"><i class="fas fa-industry" style="color: rgb(112, 112, 112); font-size: 25px;"></i></a></div>
+              <div class="label">Factories</div>
+          </div> -->
+          <div class="red">
+              <div class="icon"><a href="https://bananthu.github.io/Design/pages/profile.html"><i class="fas fa-user-circle" style="color: white; font-size: 25px;"></i></a></div>
+              <div class="label"><a href="https://bananthu.github.io/Design/pages/profile.html" style="text-decoration: none;">Account</a></div>
+          </div>
+          <div class="red">
+              <div class="icon"><a href="https://bananthu.github.io/Design/pages/login-demo.html"><i class="fas fa-sign-out-alt" style="color: rgb(255, 255, 255); font-size: 25px;"></i></a></div>
+              <div class="label"><a href="https://bananthu.github.io/Design/pages/login-demo.html" style="text-decoration: none;">Sign Out</a></div>
+          </div>
+      </div>
+      
+      
+  </div>
+  <script>
+      function Open(){
+          console.log("sss")
+          document.getElementById('menu-container').className='open';
+      }
+      function Hide(){
+          console.log("sss")
+          document.getElementById('menu-container').className='hiding';
+      }
+  </script>
+</body>
+</html>

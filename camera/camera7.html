@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+        *{
+    margin: 0px;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+        .camera{
+            height: auto;
+            width: 414px;
+            max-width: 414px;
+        }
+        .camera img{
+            width: 100%;
+            object-fit: contain;
+        }
+        .appbar{
+    max-width: 414px;
+    position: fixed;
+    width: 100%;
+    background-color: #3F2F87;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+}
+.home-icon{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.back-icon{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    /* background-color: black; */
+}
+.appbar-title{
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+    </style>
+</head>
+<body>
+    <div class="appbar">
+        <div class="back-icon">
+            <a href="https://bananthu.github.io/Design/C1.html"><i class="fas fa-chevron-left" style="color: white; font-size: 25px;"></i></a>
+        </div>
+        <div class="appbar-title">
+            <h4>CAMERA</h4>
+        </div>
+        <div class="home-icon">
+            <a href="https://bananthu.github.io/Design/home.html"><i class="fas fa-home" style="color: white; font-size: 25px;"></i></a>
+        </div>
+    </div>
+    <div style="height: 43px;"></div>
+    <div class="camera">
+        <img src="https://bananthu.github.io/Design/image/camera-screen-mobile-cellphone_97886-3330.jpg" alt="" srcset="">
+    </div>
+    
+</body>
+</html>

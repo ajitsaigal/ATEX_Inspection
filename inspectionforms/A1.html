@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/inspection-form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="appbar">
+        <div class="back-icon">
+            <a href="/pages/new-insception.html"><i class="fas fa-chevron-left" style="color: white; font-size: 25px;"></i></a>
+        </div>
+        <div class="appbar-title">
+            <h4>NEW INSCEPTION</h4>
+        </div>
+    </div>
+    <div style="height: 50px;"></div>
+    <div class="body">
+        <div class="box1">
+            <div class="red1"><i class="fas fa-list-ul"></i></div>
+            <div class="red1"><i class="fas fa-clipboard-list"></i></div>
+            <div class="red" style="color: #ED4E5E;font-weight: 700;">EQUIPMENT / A1</div>
+            <div class="red"  style="color: #00a816;font-weight: 700;">1/32</div>
+        </div>
+        <div class="box2">
+            <div class="title" style="color: #ED4E5E; font-weight: 700;">General All Equipment</div>
+            <div class="question">Equipment is appropriate to the EPL/Zone requirements of the location</div>
+            <div class="checkbox"><div class="inner"><input type="checkbox" name="" id="" style="height: 20px; background-color: chartreuse !important;">&nbsp<h5>Ex ’d’</h5></div></div>
+            <div class="checkbox"><div class="inner"><input type="checkbox" name="" id="" style="height: 20px;">&nbsp<h5>Ex ’e’</h5></div></div>
+            <div class="checkbox"><div class="inner"><input type="checkbox" name="" id="" style="height: 20px;">&nbsp<h5>Ex ’n’</h5></div></div>
+        </div>
+        <div class="box3">
+            <div class=""></div>
+            <div class="opreation"><img class="image" src="/image/tic.png" alt="" srcset=""></div>
+            <div class=""></div>
+            <div class="opreation"><img src="/image/min.png" alt="" srcset=""></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class="label">Passed</div>
+            <div class=""></div>
+            <div class="label">Minor</div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class="opreation"><img src="/image/skiip.png" alt="" srcset=""></div>
+            <div class=""></div>
+            <div class="opreation"><img src="/image/maj.png" alt="" srcset=""></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class="label">Not Inspected</div>
+            <div class=""></div>
+            <div class="label">Major</div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class="action" onmousedown="popup()"><p> Comment</p><div class="circle" style="font-size: 12px;"><i class="fas fa-arrow-up"></i></div></div>
+            <div class=""></div>
+            <div class="action"  onmousedown="popup()"><p> Client Action</p><div class="circle" style="font-size: 12px;"><i class="fas fa-arrow-up"></i></div></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class="icons"><i class="fas fa-camera"></i></div>
+            <div class=""></div>
+            <div class="icons"><i class="fas fa-qrcode"></i></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+        </div>
+
+    </div>
+  
+    <div class="bottom">
+        
+        <div class="button"><< pre</div>
+        <div></div>
+        <div class="button">next >></div>
+       
+    </div>
+    <div class="close" id="popup">
+        <div class="popup-title"><H3>Enter Notes</H3></div>
+        <div class="text"><Textarea></Textarea></div>
+        <div class="ok" onmousedown="closing()"><h2 onmousedown="close()">ok</h2></div>
+        <div class="cancel" onmousedown="closing()"><h2  onmousedown="close()">cancel</h2></div>
+    </div>
+<script>
+    function popup(){
+        document.getElementById('popup').className="popup";
+    }
+    function closing(){
+        document.getElementById('popup').className="close";
+    }
+</script>
+</body>
+
+</html>

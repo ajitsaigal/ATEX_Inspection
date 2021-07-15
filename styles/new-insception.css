@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.appbar{
+    max-width: 414px;
+    position: fixed;
+    width: 100%;
+    background-color: #3F2F87;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+}
+.home-icon{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.back-icon{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    /* background-color: black; */
+}
+.appbar-title{
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.body{
+    height: 100vh;
+    background-color: #E7E1FF;
+    padding: 20px;
+}
+
+.inspection-card{
+    height: 175px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color: rgb(231, 255, 252);
+    box-shadow: 1px 1px 10px -3px rgb(151, 151, 151);
+    display: grid;
+    grid-template-columns: 2fr 6fr 6fr 2fr;
+    grid-template-rows: 1fr 3fr 5fr;
+}
+
+
+.red{
+   display: flex;
+   justify-content: space-around;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.blue{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(216, 231, 1); */
+}
+
+
+.button-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(1, 231, 70); */
+}
+
+.button-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(231, 139, 1); */
+}
+
+button{
+    border: none;
+    height: 60%;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px -3px rgb(175, 175, 175);
+}

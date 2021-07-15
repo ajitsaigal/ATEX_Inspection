@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+        *{
+    margin: 0px;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+        .camera{
+            height: auto;
+            width: 414px;
+            max-width: 414px;
+        }
+        .camera iframe{
+            width: 100%;
+            object-fit: contain;
+        }
+        .appbar{
+    max-width: 414px;
+    position: fixed;
+    width: 100%;
+    background-color: #3F2F87;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+}
+.home-icon{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.back-icon{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    /* background-color: black; */
+}
+.appbar-title{
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+    </style>
+</head>
+<body>
+    <div class="appbar">
+        <div class="back-icon" onmousedown="window.history.back()">
+            <a href=""><i class="fas fa-chevron-left" style="color: white; font-size: 25px;"></i></a>
+        </div>
+        <div class="appbar-title">
+            <h4>LOCATION</h4>
+        </div>
+        <div class="home-icon">
+            <a href="https://bananthu.github.io/Design/home.html"><i class="fas fa-home" style="color: white; font-size: 25px;"></i></a>
+        </div>
+    </div>
+    <div style="height: 43px;"></div>
+    <div class="camera">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79197.18941596223!2d-0.475549462252529!3d51.661444457109354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487614c908fcc35b%3A0x5d521bb3eb9734f1!2sWatford%2C%20UK!5e0!3m2!1sen!2sin!4v1625411251133!5m2!1sen!2sin" width="414" height="714" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    
+</body>
+</html>

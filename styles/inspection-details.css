@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.appbar{
+    max-width: 414px;
+    position: fixed;
+    width: 100%;
+    background-color: #3F2F87;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+}
+.home-icon{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.back-icon{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    /* background-color: black; */
+}
+.appbar-title{
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.body{
+    padding: 5px;
+    background-color: #E7E1FF;
+    height: 100vh;
+}
+
+.card{
+ border-radius: 6px;
+ margin: 15px;
+ background-color: white;
+ box-shadow: 1px 1px 10px -3px rgb(177, 177, 177);
+}
+
+.one{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.two{
+    padding: 20px;
+    border-top: #3F2F87 solid 5px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    text-align: left;
+}
+.two p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.bold{
+    font-weight: 700;
+}
+
+.three{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    text-align: left;
+}
+
+.three p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.head{
+    grid-column: 1/3;
+}
+.last{
+    height: 50px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    color: rgb(0, 192, 42);
+    border: rgb(0, 192, 42) solid 2px;
+
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            /* background-color: #E7E1FF; */
+            max-width: 414px;
+        }
+        
+    </style>
+    <link rel="stylesheet" href="https://bananthu.github.io/Design/styles/checklist-view.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="appbar">
+        <div class="back-icon" onmousedown="window.history.back()">
+            <a href=""><i class="fas fa-chevron-left" style="color: white; font-size: 25px;"></i></a>
+        </div>
+        <div class="appbar-title">
+            <h4>MAJOR ISSUES QUICK VIEW </h4>
+        </div>
+        <div class="home-icon">
+            <a href="https://bananthu.github.io/Design/home.html"><i class="fas fa-home" style="color: white; font-size: 25px;"></i></a>
+        </div>
+    </div>
+    <div style="height: 50px;"></div>
+    <div class="body">
+        <div class="box1">
+            <div class="red1"><a href="https://bananthu.github.io/Design/pages/checklist-view.html" style="text-decoration: none; color: black;"><i class="fas fa-list-ul"></i></a></div>
+            <div class=" "></div>
+            
+            <div class="red" style="color: #ED4E5E;font-weight: 700;">EQUIPMENT CHECKLIST</div>
+            
+        </div>
+        <div class="dropdown" id="drop">
+            <H4 class="head">General All Equipment</H4>
+            <div id="arrow2" class="arrow downon" onmousedown="drop('arrow2','arrow1','drop','items1')"><i class="fas fa-angle-down"></i></div>
+            <div id="arrow1" class="arrow upoff" onmousedown="closed('arrow2','arrow1','drop','items1')"><i class="fas fa-angle-up"></i></div>
+            <div class="hiden" id="items1">
+                <div class="menu-item">
+                    <div class="icon"><img src="https://bananthu.github.io/Design/image/—Pngtree—.png" alt="" srcset=""></div>
+                    <div class="text"><a href="https://bananthu.github.io/Design/pages/inspection-form.html" style="text-decoration: none; color: black;" >A1</a></div>
+                </div>
+                <div class="menu-item">
+                    <div class="icon"><img src="https://bananthu.github.io/Design/image/—Pngtree—.png" alt="" srcset=""></div>
+                    <div class="text"><a href="https://bananthu.github.io/Design/inspectionforms/A2.html" style="text-decoration: none; color: black;" >A2</a></div>
+                </div>
+                <!-- <div class="menu-item">
+                    <div class="icon"><img src="https://bananthu.github.io/Design/image/s.png" alt="" srcset=""></div>
+                    <div class="text"><a href="https://bananthu.github.io/Design/inspectionforms/A3.html" style="text-decoration: none; color: black;" >A3</a></div>
+                </div>
+                <div class="menu-item">
+                    <div class="icon"><img src="https://bananthu.github.io/Design/image/tik.png" alt="" srcset=""></div>
+                    <div class="text"><a href="https://bananthu.github.io/Design/pages/inspection-form.html" style="text-decoration: none; color: black;" ></a>A4</div>
+                </div>
+                <div class="menu-item">
+                    <div class="icon"><img src="https://bananthu.github.io/Design/image/—Pngtree—.png" alt="" srcset=""></div>
+                    <div class="text"><a href="https://bananthu.github.io/Design/pages/inspection-form.html" style="text-decoration: none; color: black;" ></a>A5</div>
+                </div> -->
+            </div>
+        </div>
+
+
+        <div class="dropdown" id="drop1">
+            <H4 class="head">Installation</H4>
+            <div id="arrow4" class="arrow downon" onmousedown="drop('arrow4','arrow3','drop1','items2')"><i class="fas fa-angle-down"></i></div>
+            <div id="arrow3" class="arrow upoff" onmousedown="closed('arrow4','arrow3','drop1','items2')"><i class="fas fa-angle-up"></i></div>
+            <div class="hiden" id="items2">
+                <div class="menu-item">
+                    <div class="icon"><img src="https://bananthu.github.io/Design/image/—Pngtree—.png" alt="" srcset=""></div>
+                    <div class="text"><a href="https://bananthu.github.io/Design/inspectionforms/B1.html" style="text-decoration: none; color: black;" >B1</a></div>
+                </div>
+                <!-- <div class="menu-item">
+                    <div class="icon"><img src="https://bananthu.github.io/Design/image/m.png" alt="" srcset=""></div>
+                    <div class="text"><a href="https://bananthu.github.io/Design/inspectionforms/B2.html" style="text-decoration: none; color: black;" >B2</a></div>
+                </div> -->
+                <div class="menu-item">
+                    <div class="icon"><img src="https://bananthu.github.io/Design/image/—Pngtree—.png" alt="" srcset=""></div>
+                    <div class="text"><a href="https://bananthu.github.io/Design/inspectionforms/B3.html" style="text-decoration: none; color: black;" >B3</a></div>
+                </div>
+                <!-- <div class="menu-item">
+                    <div class="icon"><img src="https://bananthu.github.io/Design/image/tik.png" alt="" srcset=""></div>
+                    <div class="text"><a href="https://bananthu.github.io/Design/pages/inspection-form.html" style="text-decoration: none; color: black;" ></a>B4</div>
+                </div>
+                <div class="menu-item">
+                    <div class="icon"><img src="https://bananthu.github.io/Design/image/—Pngtree—.png" alt="" srcset=""></div>
+                    <div class="text"><a href="https://bananthu.github.io/Design/pages/inspection-form.html" style="text-decoration: none; color: black;" ></a>B5</div>
+                </div> -->
+            </div>
+        </div>
+
+
+
+        <div class="dropdown" id="drop2">
+            <H4 class="head">Environment</H4>
+            <div id="arrow6" class="arrow downon" onmousedown="drop('arrow6','arrow5','drop2','items3')"><i class="fas fa-angle-down"></i></div>
+            <div id="arrow5" class="arrow upoff" onmousedown="closed('arrow6','arrow5','drop2','items3')"><i class="fas fa-angle-up"></i></div>
+            <div class="hiden" id="items3">
+                <div class="menu-item">
+                    <div class="icon"><img src="https://bananthu.github.io/Design/image/—Pngtree—.png" alt="" srcset=""></div>
+                    <div class="text"><a href="https://bananthu.github.io/Design/inspectionforms/C1.html" style="text-decoration: none; color: black;" >C1</a></div>
+                </div>
+                <!-- <div class="menu-item">
+                    <div class="icon"><img src="https://bananthu.github.io/Design/image/m.png" alt="" srcset=""></div>
+                    <div class="text"><a href="https://bananthu.github.io/Design/inspectionforms/C2.html" style="text-decoration: none; color: black;" >C2</a></div>
+                </div>
+                <div class="menu-item">
+                    <div class="icon"><img src="https://bananthu.github.io/Design/image/s.png" alt="" srcset=""></div>
+                    <div class="text"><a href="https://bananthu.github.io/Design/pages/inspection-form.html" style="text-decoration: none; color: black;" ></a>C3</div>
+                </div>
+                <div class="menu-item">
+                    <div class="icon"><img src="https://bananthu.github.io/Design/image/tik.png" alt="" srcset=""></div>
+                    <div class="text"><a href="https://bananthu.github.io/Design/pages/inspection-form.html" style="text-decoration: none; color: black;" ></a>C4</div>
+                </div>
+                <div class="menu-item">
+                    <div class="icon"><img src="https://bananthu.github.io/Design/image/—Pngtree—.png" alt="" srcset=""></div>
+                    <div class="text"><a href="https://bananthu.github.io/Design/pages/inspection-form.html" style="text-decoration: none; color: black;" ></a>C5</div>
+                </div> -->
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+    <script>
+        function drop(one,two,id,items){
+            document.getElementById(id).className="drop"
+            document.getElementById(two).className="upon"
+            document.getElementById(one).className="downoff"
+            document.getElementById(items).className="items"
+        }
+        function closed(one,two,id,items){
+            document.getElementById(id).className="dropdown"
+            document.getElementById(two).className="upoff"
+            document.getElementById(one).className="downon"
+            document.getElementById(items).className="hiden"
+        }
+
+
+    </script>
+    
+</body>
+
+</html>

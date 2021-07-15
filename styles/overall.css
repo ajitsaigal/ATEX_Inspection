@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+
+.opreation1{
+    background-color: white;
+    height: 100px;
+    width: 150px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: #8B71FF solid 2px ;
+    box-shadow: 1px 3px 10px -3px rgb(146, 146, 146);
+}
+.label{
+    height: 20px;
+}
+.icon-in{
+    
+    grid-column: 2/3;
+    margin-left: 10px;
+    box-shadow: 1px 3px 10px -3px rgb(146, 146, 146);
+    border-radius: 0% 0% 0% 70%;
+    grid-row: 1/3;
+    padding-top: 5px;
+    padding-left:10px;
+}
+.icon-in img{
+    height: 80%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 100%;
+    
+}
+.number{
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 25px;
+    /* margin-top: 5px; */
+    display: grid;
+    grid-row: 1/3;
+    justify-content: left;
+    align-items: center;
+    color: #b3b3b3;
+}
+
+.total{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    /* background-color: blueviolet; */
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.box2{
+    display: grid;
+    grid-template-rows: 3fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 20px;
+}
+.type,.id,.date{
+    margin-left: 20px;
+    display: grid;
+    justify-content: left;
+    align-items: center;
+}
+
+.bottom-card{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 1px 3px 10px -3px rgb(146, 146, 146);
+}
+
+.name{
+    display: grid;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: left;
+}
+
+
+
+.input input{
+    margin-top: 9px;
+    margin-left: 10px;
+    border: #47388A solid 1px;
+    border-radius: 4px;
+    
+}
+input{
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.card-title{
+    display: grid;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: left;
+    color: #47388A;
+}
+.home-icon{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="/styles/side-menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="menu-container" id="menu-container">
+        <!-- <button type="button"  onclick="Hide()">ddd</button> -->
+        <div class="logo-menu" onmousedown="Hide()">
+            <img src="/image/logo.png">
+            
+        
+        </div>
+        <div class="menu-body">
+            <div class="blank"></div>
+            <div class="red"  onmousedown="Hide()">
+                <div class="icon"><a href="/pages/new-insception.html"><i class="fas fa-th-large" style="color: white; font-size: 25px;"></i></a></div>
+                <div class="label">Dashboard</div>
+            </div>
+            <div class="red">
+                <div class="icon"><a href="/pages/new-insception.html"><i class="fas fa-bell" style="color: white; font-size: 25px;"></i></a></div>
+                <div class="label">Inspections</div>
+            </div>
+            <div class="red">
+                <div class="icon"><a href="/pages/new-insception.html"><i class="fas fa-book" style="color: white; font-size: 25px;"></i></a></div>
+                <div class="label">Asset Register</div>
+            </div>
+            <div class="red">
+                <div class="icon"><a href="/pages/new-insception.html"><i class="fas fa-industry" style="color: white; font-size: 25px;"></i></a></div>
+                <div class="label">Factories</div>
+            </div>
+            <div class="red">
+                <div class="icon"><a href="/pages/new-insception.html"><i class="fas fa-user-circle" style="color: white; font-size: 25px;"></i></a></div>
+                <div class="label">Accounts</div>
+            </div>
+            <div class="red">
+                <div class="icon"><a href="/pages/new-insception.html"><i class="fas fa-sign-out-alt" style="color: white; font-size: 25px;"></i></a></div>
+                <div class="label">Sign Out</div>
+            </div>
+        </div>
+        
+        
+    </div>
+    <script>
+        function Hide(){
+            console.log("sss")
+            document.getElementById('menu-container').className='hiding';
+        }
+    </script>
+</body>
+</html>
